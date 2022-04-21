@@ -11,6 +11,8 @@
 		75E67EA3280D8728005D92A9 /* homework1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E67EA2280D8728005D92A9 /* homework1.swift */; };
 		75E67EA5280D8851005D92A9 /* homework2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E67EA4280D8851005D92A9 /* homework2.swift */; };
 		75E67EA7280D88F9005D92A9 /* homework3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E67EA6280D88F9005D92A9 /* homework3.swift */; };
+		75E67EAD28101AD2005D92A9 /* homework5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E67EAC28101AD2005D92A9 /* homework5.swift */; };
+		75E67EAF281027CE005D92A9 /* homework4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E67EAE281027CE005D92A9 /* homework4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		75E67EA2280D8728005D92A9 /* homework1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework1.swift; sourceTree = "<group>"; };
 		75E67EA4280D8851005D92A9 /* homework2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework2.swift; sourceTree = "<group>"; };
 		75E67EA6280D88F9005D92A9 /* homework3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework3.swift; sourceTree = "<group>"; };
+		75E67EAC28101AD2005D92A9 /* homework5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework5.swift; sourceTree = "<group>"; };
+		75E67EAE281027CE005D92A9 /* homework4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				756D74BB280990D3006C97E0 /* main.swift */,
+				75E67EAC28101AD2005D92A9 /* homework5.swift */,
 				75E67EA2280D8728005D92A9 /* homework1.swift */,
+				75E67EAE281027CE005D92A9 /* homework4.swift */,
 				75E67EA4280D8851005D92A9 /* homework2.swift */,
 				75E67EA6280D88F9005D92A9 /* homework3.swift */,
 			);
@@ -129,6 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E67EAF281027CE005D92A9 /* homework4.swift in Sources */,
+				75E67EAD28101AD2005D92A9 /* homework5.swift in Sources */,
 				756D74BC280990D3006C97E0 /* main.swift in Sources */,
 				75E67EA7280D88F9005D92A9 /* homework3.swift in Sources */,
 				75E67EA5280D8851005D92A9 /* homework2.swift in Sources */,
