@@ -3,7 +3,7 @@
 import Foundation
 
 let homework5 = {
-
+    
     //Пункт 1 Домашней работы №5
     //Создать 10 разных Dictionary с разными типами данных. Один из них должен содержать все месяца года на русском.Второй на английском
     
@@ -20,7 +20,7 @@ let homework5 = {
                         "месяц 10": "октябрь",
                         "месяц 11": "ноябрь",
                         "месяц 12": "декабрь"]
-        
+    
     let dictMonthEng = ["month 1": "january",
                         "month 2": "february",
                         "month 3": "march",
@@ -43,51 +43,52 @@ let homework5 = {
                          "grandmother": "Svetlana",
                          "grandfather": "Igor"]
     
-        let carsDict = ["car 1": "Audi",
-                        "car 2": "Opel",
-                        "car 3": "Toyota",
-                        "car 4": "Kia",
-                        "car 5": "Reno",
-                        "car 6": "Ferrari"]
-        
-        let bradsDict = ["fridge": "Liebher",
-                         "TV": "Xiomi",
-                         "iron": "Samsung",
-                         "teapot": "Xiomi",
-                         "humidifier": "Electrolux",
-                         "microwave": "Samsung",
-                         "oven": "Bosch"]
-        
-        var booksDict = ["Crime": "Spider",
-                         "Science fiction": "Homosapiens",
-                         "Post-apocalyptic": "Roadside Picnic",
-                         "Distopia": "1984",
-                         "Fantasy": "game of Thrones",
-                         "Romance novel": "The Canterville Ghost",
-                         "Western": "loathsome eight",
-                         "Horror": "shine"]
-                        
-        var musicDict = ["Classic": "Beethoven",
-                         "Jazz": "Classic Jazz Collegium",
-                         "Rap": "Eminem",
-                         "Electronic": "Lady Gaga",
-                         "Rock": "Linkin Park",
-                         "Disco": "Donna Summer",
-                         "Pop Music": "Ed Sheeran"]
-        
-        var farmDict = ["sedative": "Persen",
-                        "antibiotic": "Pariet",
-                        "antipyretic": "Paracetomol",
-                        "painkiller": "Nurofen",
-                        "antiallergic": "Suprastin",
-                        "hormonal": "Mildronat"]
-        
+    let carsDict = ["car 1": "Audi",
+                    "car 2": "Opel",
+                    "car 3": "Toyota",
+                    "car 4": "Kia",
+                    "car 5": "Reno",
+                    "car 6": "Ferrari"]
+    
+    let bradsDict = ["fridge": "Liebher",
+                     "TV": "Xiomi",
+                     "iron": "Samsung",
+                     "teapot": "Xiomi",
+                     "humidifier": "Electrolux",
+                     "microwave": "Samsung",
+                     "oven": "Bosch"]
+    
+    var booksDict = ["Crime": "Spider",
+                     "Science fiction": "Homosapiens",
+                     "Post-apocalyptic": "Roadside Picnic",
+                     "Distopia": "1984",
+                     "Fantasy": "game of Thrones",
+                     "Romance novel": "The Canterville Ghost",
+                     "Western": "loathsome eight",
+                     "Horror": "shine"]
+    
+    var musicDict = ["Classic": "Beethoven",
+                     "Jazz": "Classic Jazz Collegium",
+                     "Rap": "Eminem",
+                     "Electronic": "Lady Gaga",
+                     "Rock": "Linkin Park",
+                     "Disco": "Donna Summer",
+                     "Pop Music": "Ed Sheeran"]
+    
+    var farmDict = ["sedative": "Persen",
+                    "antibiotic": "Pariet",
+                    "antipyretic": "Paracetomol",
+                    "painkiller": "Nurofen",
+                    "antiallergic": "Suprastin",
+                    "hormonal": "Mildronat"]
+    
     
     let airTemperatureDict = ["temperature1": 22.5,
                               "temperature2": 21.7,
                               "temperature3": 20.2,
                               "temperature4": 16.9,
                               "temperature5": 19.8]
+    
     let womensChildren = ["women1": 3,
                           "women2": 2,
                           "women3": 2,
@@ -148,12 +149,12 @@ let homework5 = {
     
     //Пункт 4 Домашней работы №5
     //Cоздайте словарь — ключ: «иномарка», «значение»: название машины.
-
-    var foreignDict = ["иномарка" : "Audi"]
+    
+    var foreignDict = ["иномарка": "Audi"]
     
     //Пункт 5 Домашней работы №5
     //Добавьте в него значение по ключу - «отечественная». Распечатайте ключи и значения в консоль. Затем отдельно только значения.
-
+    
     foreignDict.updateValue("Lada", forKey: "отечественная")
     
     print(foreignDict)
@@ -162,7 +163,7 @@ let homework5 = {
     
     //Пункт 6 Домашней работы №5
     //Удалите из словаря иномарку по ключу (двумя способами: через nil и removeValue().
-
+    
     foreignDict["иномарка"] = nil
     print(foreignDict)
     
@@ -174,7 +175,7 @@ let homework5 = {
     
     //Пункт 7 Домашней работы №5
     //Создайте словарь, где ключ — фамилия солдата, а значение — его приветствие.
-
+    
     let soldiersDict = ["Иванов": "Здравия желаю!",
                         "Петров": "Здравия желаю!",
                         "Сидоров": "Здравия желаю!",
@@ -187,7 +188,7 @@ let homework5 = {
     
     //Пункт 8 Домашней работы №5
     //В цикле пройдитесь по всем ключам и распечатайте фамилию каждого солдата. Сделайте тоже самое со значениями и распечатайте приветствие каждого солдата.
-
+    
     for key in soldiersDict.keys {
         print("\(key)")
     }
