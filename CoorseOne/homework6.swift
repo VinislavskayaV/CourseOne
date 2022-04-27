@@ -97,7 +97,4 @@ let homework6 = {
     print(competitionsTuple.0, competitionsTuple.1, competitionsTuple.2)
     print("Инспектор Олег поймал на  \(overSpeedCompetitions) нарушителей больше, чем инспектор Игорь. Инспектор Игорь поймал на \(drunkDrivingCompetitions) пьяных водителя меньше. Инспектор Олег поймал на \(withoutLicenceCompetitions) водителя без прав больше, чем инспектор Игорь.")
     print(competitionsTuple)
-
-    
-    
 }
