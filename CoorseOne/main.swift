@@ -11,5 +11,5 @@ import Foundation
 //homework2()
 //homework3()
 //homework4()
-homework5()
+//homework5()
 homework7()
