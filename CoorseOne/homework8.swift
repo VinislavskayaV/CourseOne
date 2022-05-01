@@ -12,17 +12,17 @@ let homework8 = {
     //    Пункт 1 Домашней работы №8
     //    Создать цикл в цикле. В первом цикле интервал 200 раз во втором как доедем до 15 выйти со всех циклов:)
     
-    for i in 0...200 {
-        if i == 15 {
+    for number in 0...200 {
+        if number == 15 {
             break
         }
-        print(i)
+        print(number)
     }
     
     //    Пункт 2 Домашней работы №8
     //    Создать в if и отдельно в switch программу которая будет смотреть на возраст человека и говорить куда ему идти в школу, в садик, в универ, на работу или на пенсию и тд
     
-    var peopleAge = 66
+    let peopleAge = 66
     
     if peopleAge <= 6 {
         print("Отправляйтесь в детский сад")
@@ -73,6 +73,9 @@ let homework8 = {
         print(timesOfDayArray.reversed()[index])
     }
     
+    for element in timesOfDayArray.enumerated() {
+        print(element)
+    }
     
     let timesOfDayDict = ["утро" : "город просыпается" , "день" : "люди учатся и работают", "вечер" : "люди спешат домой", "ночь" : "город засыпает"]
     
@@ -91,7 +94,7 @@ let homework8 = {
     // Пункт 4 Домашней работы 8
     // В switch и отдельно в if создать систему оценивания школьников по 12 бальной системе и и высказывать через print мнение
     
-    var grade = 5
+    let grade = 5
     
     if grade == 0 {
         print("Отвратительно")
@@ -119,6 +122,8 @@ let homework8 = {
         print("Прекрасно")
     } else if grade == 12 {
         print("Великолепно")
+    } else {
+        print("Вы ввели недопустимое число")
     }
     
     switch grade {
@@ -139,7 +144,7 @@ let homework8 = {
     //  Создайте массив(без тюплов) с именами всех членов вашей семьи включая родственников что б количество имен не менее 10 было и отсортируйте, распечатайте по алфавиту их в консоль
     
     let myFamilyArray = ["Yan", "Sergey", "Maryana", "Justina", "Yaroslava", "Vitaliy", "Svetlana", "Anatoliy", "Vasiliy", "Elena"]
-    var sortedArray = myFamilyArray.sorted()
+    let sortedArray = myFamilyArray.sorted()
     print(sortedArray)
 }
 
