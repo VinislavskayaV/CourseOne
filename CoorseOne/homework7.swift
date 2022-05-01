@@ -18,8 +18,8 @@ let homework7 = {
        let kiloRice = Int(rice),
        let kiloWater = Int(water) {
         
-        let summa1 = kiloChicken + kiloCarrot + kiloOnion + kiloRice + kiloWater
-        print("Summa 1 = \(summa1)")
+        let summa = kiloChicken + kiloCarrot + kiloOnion + kiloRice + kiloWater
+        print("Summa  = \(summa)")
     }
     
     //    Пункт 2 Домашней работы №7
