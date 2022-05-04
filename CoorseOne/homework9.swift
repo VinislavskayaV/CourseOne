@@ -86,11 +86,13 @@ let homework9 = {
     //    4) Создайте функцию которая принимает параметры и вычисляет площадь круга.
     
     func circleArea(radius: Double) {
-        var circleArea = Double.pi * radius * radius
+        var circleArea = Double.pi * pow(radius, 2)
         print(circleArea)
     }
     
-    circleArea(radius: 4.12)
+    circleArea(radius: 9.2)
+    
+    
     
     
     //    5) Создайте Dictionary с именем ученики , где ключ name и score, а значение (1 тюпл из 5 имен) и (второй тюпл из 5 оценок).И распечатайте только имена по ключу.
@@ -114,8 +116,8 @@ let homework9 = {
             }
         }
         var sum = 0
-        for i in intResultArray {
-            sum += i
+        for number in intResultArray {
+            sum += number
         }
         print(sum)
     }
