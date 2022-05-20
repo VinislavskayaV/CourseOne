@@ -16,33 +16,26 @@ let homework12 = {
         var width = 0
         var hight = 0
         
-        init(width: Int, hight: Int) {
+        init (width: Int, hight: Int) {
             self.width = width
             self.hight = hight
         }
-    }
-    
-    
-    func create (name: HouseClass) {
-        var productOfProperties = name.hight * name.width
-        print(productOfProperties)
-    }
-    
-    create(name: HouseClass(width: 12, hight: 10))
-    
-    
-    func destroy (name: HouseClass) {
-        var width = name.width
-        var hight = name.hight
         
-        var summ = width + hight
+        func create (width: Int, hight: Int) -> Int {
+            return width * hight
+        }
         
-        if summ == 0 {
-            print("Дом разрушен")
+        func destroy (width: Int, hight: Int) {
+            let summ = width + hight
+            if summ == 0 {
+                print("Дом разрушен")
+            }
         }
     }
     
-    destroy(name: HouseClass(width: 0, hight: 0))
+    let houseParameters = HouseClass.init(width: 10, hight: 12)
+    print(houseParameters.create(width: 10, hight: 12))
+    print(houseParameters.destroy(width: 0, hight: 0))
     
     
     //    Пункт 2 Домашней работы 12
@@ -54,91 +47,71 @@ let homework12 = {
         init(pupilsArray: [String]) {
             self.pupilsArray = pupilsArray
         }
-    }
-    
-    func sortedPupilsArray(studentData: Pupils) {
-        let sortedPupilsArray = studentData.pupilsArray.sorted()
-        print(sortedPupilsArray)
         
+        func sortedPupilsArray(studentName: [String]) -> [String] {
+            return studentName.sorted()
+        }
     }
     
-    sortedPupilsArray(studentData: Pupils(pupilsArray: ["Yura", "Konstntin", "Mikhail", "Ilya", "Robert", "Yan"]))
+    let pupilsOperations  = Pupils.init(pupilsArray: [])
+    print(pupilsOperations.sortedPupilsArray(studentName: ["Yura", "Konstntin", "Mikhail", "Ilya", "Robert", "Yan"]))
     
+        
     
     //    Пункт 3 Домашней работы 12
     //    Написать свою структуру и пояснить в комментариях - чем отличаются структуры от классов.
     
     
     struct Car {
-        var brandName = ""
-        var modelName = ""
-        var color = ""
-        var engineCapacity = 0.0
+        var brandName: String = "Audi"
+        var modelName: String = "S7"
+        var color: String = "red"
+        var engineCapacity: Double = 2.5
+        
+        mutating func carModification(newCapacity: Double) {
+            self.engineCapacity = newCapacity
+        }
     }
+    var newCarCapacity = Car(brandName: "Audi", modelName: "S7", color: "red", engineCapacity: 1.8)
+    newCarCapacity.carModification(newCapacity: 2.5)
+    print(newCarCapacity)
     
-    func carModification(object: inout Car) {
-        object.engineCapacity += 0.5
-        print(object.engineCapacity)
-    }
-    
-    var car = Car(brandName: "Audi", modelName: "s7", color: "green", engineCapacity: 3.5)
-    var car2 = car
-    
-    
-    car.brandName = "Skoda"
-    car.modelName = "Rapid"
-    car.color = "pink"
-    car.engineCapacity = 1.8
-    
-    car2.brandName = "Mercedes"
-    car2.modelName = "GLC"
-    car2.color = "red"
-    car2.engineCapacity = 2.5
-    
-    print(car)
-    print(car2)
-    
-    
+
     /*    Класс и структура - это инструкции для создания экземпляров объектов. Инструкции, которые объединяют свойства и методы объектов.
-     Класс - reference type - создается ссылка, изменения в одной структуре влечет изменения в другой. Используется при работе с
-     большим объемом данных.
+     Класс - reference type - создается ссылка, объект класса при изменении его свойства остается тем же объектом с новым значением
+     этого свойства. Используется при работе с большим объемом данных. Класс не имеет дефолтного инициализатора. Объекты класса передаются по ссылке.
      
-     Структуры - value type - при копировании создается экземпляр класса - идентичная копия. При этом изменения в дочернем классе
-     не влекут изменения в родительском. Структуры используются в том случае, когда работа осуществляется с небольшим объемом данных.
+     Структуры - value type - при копировании создается экземпляр класса - идентичная копия. При изменении свойства создается новая с новым значением этого свойства структура. Структуры используются в том случае, когда работа осуществляется с небольшим объемом данных. у структуры есть дефолтный инициализатор. Структуры передаются по значению.
      
      */
     
     //    Пункт 4 Домашней работы 12
     //    Написать программу, которая называет комбинации в покере
     
-    enum Suit: String {
-        case Diamonds = "бубновый"
-        case Hearts = "червовый"
-        case Clubs = "трефовый"
-        case Spades = "пиковый"
-    }
-    
+
     class Combination {
+        let pokerCombinationArray = ["фул хаус", "каре", "стрит флуш", "роял флеш"]
         
-        var fullHouse = "фул хаус"
-        var fourOfKind = "каре"
-        var straightFlush = "стрит флеш"
-        var royalFlush = "роял флеш"
+        enum Suit: String {
+            case Diamonds = "бубновый"
+            case Hearts = "червовый"
+            case Clubs = "трефовый"
+            case Spades = "пиковый"
+        }
+        
+        func printComboIfExist(suit: Suit, combination: String) {
+            if pokerCombinationArray.contains(combination) {
+                print("У вас \(suit.rawValue) \(combination)")
+            } else {
+                print("У вас несуществующая комбинация \(combination)")
+            }
+        }
     }
-    
-    let suit1 = Suit.Diamonds.rawValue
-    let suit2 = Suit.Hearts.rawValue
-    let suit3 = Suit.Clubs.rawValue
-    let suit4 = Suit.Spades.rawValue
     
     let combination = Combination()
     
-    print("У Вас \(combination.fullHouse) \(suit1)")
-    print("У Вас \(combination.fourOfKind) \(suit2)")
-    print("У Вас \(combination.straightFlush) \(suit3)")
-    print("У Вас \(combination.royalFlush) \(suit4)")
-    
-    
+    combination.printComboIfExist(suit: .Spades, combination: "straight flush")
+    combination.printComboIfExist(suit: .Spades, combination: "super-puper straight flush full house")
     
     
     //    Пункт 5 Домашней работы 12
@@ -146,33 +119,33 @@ let homework12 = {
     
     class NamesOperations {
         
-        var names2Array: [String]
+        var names: [String]
         
         init(names: [String]) {
-            self.names2Array = names
+            self.names = names
         }
         
         func namesBy(firstChar: String) -> [String] {
-            return names2Array.filter{ $0.hasPrefix(firstChar) }
+            return names.filter{ $0.hasPrefix(firstChar) }
         }
     }
     
     
-    let namesOperations = NamesOperations(names: ["Сергей", "Алексей", "Павел", "Тимофей", "Станислав", "Борис", "Роман", "Александр", "Игорь", "Тарас", "Николай"])
-    let names = namesOperations.namesBy(firstChar: "Т")
-    print(names)
+    let namesOperations = NamesOperations(names: ["Евгений", "Сергей", "Алексей", "Павел", "Тимофей", "Станислав", "Борис", "Роман", "Александр", "Игорь", "Тарас", "Николай"])
+    let sortedNames = namesOperations.namesBy(firstChar: "Т")
+    print(sortedNames)
     
     
     //   Написать метод, который будет принимать массив строк как аргумент и выводить их всех на консоль с новой строки каждое имя.
     
     
     func namesByNewString(stringArray: [String]) {
-        for element in 0..<names.count {
-            print(names[element])
+        for element in 0..<sortedNames.count {
+            print(sortedNames[element])
         }
     }
     
-    namesByNewString(stringArray: ["Сергей", "Алексей", "Павел", "Тимофей", "Станислав", "Борис", "Роман", "Александр", "Игорь", "Тарас", "Николай"])
+    namesByNewString(stringArray: ["Евгений", "Сергей", "Алексей", "Павел", "Тимофей", "Станислав", "Борис", "Роман", "Александр", "Игорь", "Тарас", "Николай"])
     
     
 }
