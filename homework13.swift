@@ -76,12 +76,12 @@ let homework13 = {
     
     
     struct CreateTriangle {
-        var уголА: Int
-        var уголС: Int
+        var cornerА: Int
+        var cornerC: Int
         
-        var уголВ: Int {
+        var cornerВ: Int {
             get {
-                return 180 - уголА - уголС
+                return 180 - cornerА - cornerC
             }
             set {
                 print("Угол В = " + "newValue")
@@ -89,8 +89,8 @@ let homework13 = {
         }
     }
     
-    var triangle = CreateTriangle(уголА: 45, уголС: 45)
-    print(triangle.уголВ)
+    var triangle = CreateTriangle(cornerА: 45, cornerC: 45)
+    print(triangle.cornerВ)
     
     
     
@@ -242,6 +242,7 @@ let homework13 = {
 //    auto.drive(actionOnPedestrian: beep)
 //
 //    auto.drive { beep() }
-    
+ 
+
 }
 
