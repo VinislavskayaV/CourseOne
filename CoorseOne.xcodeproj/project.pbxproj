@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7516F03B2844EAFB0005DB1A /* homework15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516F03A2844EAFB0005DB1A /* homework15.swift */; };
 		756D74BC280990D3006C97E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756D74BB280990D3006C97E0 /* main.swift */; };
 		75E67EA3280D8728005D92A9 /* homework1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E67EA2280D8728005D92A9 /* homework1.swift */; };
 		75E67EA5280D8851005D92A9 /* homework2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E67EA4280D8851005D92A9 /* homework2.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7516F03A2844EAFB0005DB1A /* homework15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework15.swift; sourceTree = "<group>"; };
 		756D74B8280990D3006C97E0 /* CoorseOne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CoorseOne; sourceTree = BUILT_PRODUCTS_DIR; };
 		756D74BB280990D3006C97E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		75E67EA2280D8728005D92A9 /* homework1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework1.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				756D74BB280990D3006C97E0 /* main.swift */,
+				7516F03A2844EAFB0005DB1A /* homework15.swift */,
 				75E67EA8280D8B67005D92A9 /* homework4.swift */,
 				75E67EA2280D8728005D92A9 /* homework1.swift */,
 				75E67EA4280D8851005D92A9 /* homework2.swift */,
@@ -143,6 +146,7 @@
 				756D74BC280990D3006C97E0 /* main.swift in Sources */,
 				75E67EBB28159A26005D92A9 /* homework6.swift in Sources */,
 				75E67EA7280D88F9005D92A9 /* homework3.swift in Sources */,
+				7516F03B2844EAFB0005DB1A /* homework15.swift in Sources */,
 				75E67EA5280D8851005D92A9 /* homework2.swift in Sources */,
 				75E67EA3280D8728005D92A9 /* homework1.swift in Sources */,
 			);
