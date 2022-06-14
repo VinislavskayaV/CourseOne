@@ -123,28 +123,28 @@ let homework15 = {
         }
     }
     
-    let Yan = Human()
-    print(Yan.aboutHuman)
+    let humanYan = Human()
+    print(humanYan.aboutHuman)
     
-    class Human1: Human {
+    class HumanOne: Human {
         var status = "nice"
         override var aboutHuman: String {
             return "My \(status) name is \(name), she is \(age) months. She is a \(gender)."
         }
         
-        override  func untilTheBirthday() -> String {
+        override func untilTheBirthday() -> String {
             super.untilTheBirthday() + " It's time to choose gifts."
         }
     }
     
-    let Yustina = Human1()
-    Yustina.name = "Yustina"
-    Yustina.age = 11
-    Yustina.gender = "girl"
-    print(Yustina.aboutHuman)
+    let humanYustina = HumanOne()
+    humanYustina.name = "Yustina"
+    humanYustina.age = 11
+    humanYustina.gender = "girl"
+    print(humanYustina.aboutHuman)
     
-    print(Yan.untilTheBirthday())
-    print(Yustina.untilTheBirthday())
+    print(humanYan.untilTheBirthday())
+    print(humanYustina.untilTheBirthday())
     
     
 
