@@ -9,10 +9,17 @@
 /* Begin PBXBuildFile section */
 		756D74BC280990D3006C97E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756D74BB280990D3006C97E0 /* main.swift */; };
 		757A45212837B95900601DF0 /* homework13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A45202837B95900601DF0 /* homework13.swift */; };
+		757A451F2832697E00601DF0 /* homework12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A451E2832697E00601DF0 /* homework12.swift */; };
+		757A451D282D563B00601DF0 /* homework11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A451C282D563B00601DF0 /* homework11.swift */; };
+		757A451B282BBD9600601DF0 /* homework10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A451A282BBD9600601DF0 /* homework10.swift */; };
+		757A4517281DC79000601DF0 /* homework9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A4516281DC79000601DF0 /* homework9.swift */; };
 		75E67EA3280D8728005D92A9 /* homework1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E67EA2280D8728005D92A9 /* homework1.swift */; };
 		75E67EA5280D8851005D92A9 /* homework2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E67EA4280D8851005D92A9 /* homework2.swift */; };
 		75E67EA7280D88F9005D92A9 /* homework3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E67EA6280D88F9005D92A9 /* homework3.swift */; };
 		75E67EA9280D8B68005D92A9 /* homework4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E67EA8280D8B67005D92A9 /* homework4.swift */; };
+		75E67EB928159973005D92A9 /* homework5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E67EB828159973005D92A9 /* homework5.swift */; };
+		75E67EBB28159A26005D92A9 /* homework6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E67EBA28159A26005D92A9 /* homework6.swift */; };
+		75E67EC5281944E7005D92A9 /* homework8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E67EC4281944E7005D92A9 /* homework8.swift */; };
 		75E67EBB28159A26005D92A9 /* homework6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E67EBA28159A26005D92A9 /* homework6.swift */; };
 		75E67EBD2816B096005D92A9 /* homework7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E67EBC2816B096005D92A9 /* homework7.swift */; };
 /* End PBXBuildFile section */
@@ -33,10 +40,17 @@
 		756D74B8280990D3006C97E0 /* CoorseOne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CoorseOne; sourceTree = BUILT_PRODUCTS_DIR; };
 		756D74BB280990D3006C97E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		757A45202837B95900601DF0 /* homework13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework13.swift; sourceTree = SOURCE_ROOT; };
+		757A451E2832697E00601DF0 /* homework12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework12.swift; sourceTree = SOURCE_ROOT; };
+		757A451C282D563B00601DF0 /* homework11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework11.swift; sourceTree = SOURCE_ROOT; };
+		757A451A282BBD9600601DF0 /* homework10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework10.swift; sourceTree = SOURCE_ROOT; };
+		757A4516281DC79000601DF0 /* homework9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework9.swift; sourceTree = "<group>"; };
 		75E67EA2280D8728005D92A9 /* homework1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework1.swift; sourceTree = "<group>"; };
 		75E67EA4280D8851005D92A9 /* homework2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework2.swift; sourceTree = "<group>"; };
 		75E67EA6280D88F9005D92A9 /* homework3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework3.swift; sourceTree = "<group>"; };
 		75E67EA8280D8B67005D92A9 /* homework4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework4.swift; sourceTree = "<group>"; };
+		75E67EB828159973005D92A9 /* homework5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homework5.swift; sourceTree = "<group>"; };
+		75E67EBA28159A26005D92A9 /* homework6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homework6.swift; sourceTree = "<group>"; };
+		75E67EC4281944E7005D92A9 /* homework8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework8.swift; sourceTree = "<group>"; };
 		75E67EBA28159A26005D92A9 /* homework6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homework6.swift; sourceTree = "<group>"; };
 		75E67EBC2816B096005D92A9 /* homework7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework7.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,14 +85,20 @@
 		756D74BA280990D3006C97E0 /* CoorseOne */ = {
 			isa = PBXGroup;
 			children = (
-				757A45202837B95900601DF0 /* homework13.swift */,
 				756D74BB280990D3006C97E0 /* main.swift */,
-				75E67EA8280D8B67005D92A9 /* homework4.swift */,
 				75E67EA2280D8728005D92A9 /* homework1.swift */,
 				75E67EA4280D8851005D92A9 /* homework2.swift */,
 				75E67EA6280D88F9005D92A9 /* homework3.swift */,
+                75E67EA8280D8B67005D92A9 /* homework4.swift */,
+                75E67EB828159973005D92A9 /* homework5.swift */,
 				75E67EBA28159A26005D92A9 /* homework6.swift */,
-				75E67EBC2816B096005D92A9 /* homework7.swift */,
+                75E67EBC2816B096005D92A9 /* homework7.swift */,
+                75E67EC4281944E7005D92A9 /* homework8.swift */,
+				757A4516281DC79000601DF0 /* homework9.swift */,
+                757A451A282BBD9600601DF0 /* homework10.swift */,
+                757A451C282D563B00601DF0 /* homework11.swift */,
+                757A451E2832697E00601DF0 /* homework12.swift */,
+                757A45202837B95900601DF0 /* homework13.swift */,
 			);
 			path = CoorseOne;
 			sourceTree = "<group>";
@@ -141,14 +161,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				757A451B282BBD9600601DF0 /* homework10.swift in Sources */,
 				75E67EBD2816B096005D92A9 /* homework7.swift in Sources */,
+				757A451D282D563B00601DF0 /* homework11.swift in Sources */,
 				75E67EA9280D8B68005D92A9 /* homework4.swift in Sources */,
+				757A451F2832697E00601DF0 /* homework12.swift in Sources */,
 				756D74BC280990D3006C97E0 /* main.swift in Sources */,
 				757A45212837B95900601DF0 /* homework13.swift in Sources */,
 				75E67EBB28159A26005D92A9 /* homework6.swift in Sources */,
 				75E67EA7280D88F9005D92A9 /* homework3.swift in Sources */,
 				75E67EA5280D8851005D92A9 /* homework2.swift in Sources */,
+				75E67EC5281944E7005D92A9 /* homework8.swift in Sources */,
 				75E67EA3280D8728005D92A9 /* homework1.swift in Sources */,
+				75E67EB928159973005D92A9 /* homework5.swift in Sources */,
+				757A4517281DC79000601DF0 /* homework9.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
