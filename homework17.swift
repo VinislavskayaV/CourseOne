@@ -17,25 +17,30 @@ let homework17 = {
     enum Actions {
         enum EngineActions {
             case start
-            case stop}
+            case stop
+        }
         enum WindowsActions {
             case open
-            case close}
+            case close
+        }
         enum CargoActions {
             case load
-            case unload}
+            case unload
+        }
     }
     
     struct PassengerCar {
-        var brandName: String
-        var yearOfIssue: Int
-        var trunkVolume: Int
+        let brandName: String
+        let yearOfIssue: Int
+        let trunkVolume: Int
         
-        var engineCondition : Actions.EngineActions {
+        var engineCondition: Actions.EngineActions {
             willSet {
                 if newValue == .start {
                     print ("engine in \(brandName) \(yearOfIssue) years of issue started")
-                } else {print("engine in \(brandName) \(yearOfIssue) years of issue stoped")}
+                } else {
+                    print("engine in \(brandName) \(yearOfIssue) years of issue stoped")
+                }
             }
         }
         
@@ -43,7 +48,9 @@ let homework17 = {
             willSet {
                 if newValue == .open {
                     print("windows in \(brandName) \(yearOfIssue) years of issue open")
-                } else {print("windows in \(brandName) \(yearOfIssue) years of issue closed")}
+                } else {
+                    print("windows in \(brandName) \(yearOfIssue) years of issue closed")
+                }
             }
         }
         
@@ -56,14 +63,13 @@ let homework17 = {
                 }
             }
         }
-        
     }
     
     
     struct FreightCar {
-        var brandName: String
-        var yearOfIssue: Int
-        var bodyVolume: Double
+        let brandName: String
+        let yearOfIssue: Int
+        let bodyVolume: Double
         
         var engineCondition: Actions.EngineActions {
             willSet {
