@@ -154,6 +154,8 @@ let homework10 = {
         print(controlArray)
     }
     emptyArrayControl(array: [9])
+
+    
     
 }
 
