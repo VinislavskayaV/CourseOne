@@ -94,10 +94,11 @@ let homework21 = {
     
     //    6) Написать класс на свой вкус(любые методы, проперти) универсального типа. Используя extension, расширить класс, добавить сабскрипт. (потренируйтесь)
     
-    let space = Space(stars: ["Polyarnaya", "Castor", "Wasat"], planet: ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"])
-    space.detection(star: "Alhena", planet: "Hygiea")
-    print(space[0])
-    print(space[1])
+    let solarSystem = Space(stars: ["Polyarnaya", "Castor", "Wasat"], planet: ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"])
+    solarSystem.detection(star: "Alhena", planet: "Hygiea")
+    print(solarSystem[0])
+    print(solarSystem[1])
+    
 }
 
 class Space<T> {
