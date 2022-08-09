@@ -27,6 +27,7 @@
 		E41FB2C8286C823C00471872 /* homework18.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41FB2C7286C823C00471872 /* homework18.swift */; };
 		E41FB2CA2873042400471872 /* homework19.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41FB2C92873042400471872 /* homework19.swift */; };
 		E471EECA2886C4440043DF94 /* homework20.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471EEC92886C4440043DF94 /* homework20.swift */; };
+		E4761FB128A2B9D300D44B6B /* homework22.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4761FB028A2B9D300D44B6B /* homework22.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +64,7 @@
 		E41FB2C7286C823C00471872 /* homework18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework18.swift; sourceTree = "<group>"; };
 		E41FB2C92873042400471872 /* homework19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework19.swift; sourceTree = "<group>"; };
 		E471EEC92886C4440043DF94 /* homework20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = homework20.swift; path = ../homework20.swift; sourceTree = "<group>"; };
+		E4761FB028A2B9D300D44B6B /* homework22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework22.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		756D74BA280990D3006C97E0 /* CoorseOne */ = {
 			isa = PBXGroup;
 			children = (
+				E4761FB028A2B9D300D44B6B /* homework22.swift */,
 				E41FB2C52860947300471872 /* homework17.swift */,
 				756D74BB280990D3006C97E0 /* main.swift */,
 				E41FB2C92873042400471872 /* homework19.swift */,
@@ -189,6 +192,7 @@
 				75E67EB928159973005D92A9 /* homework5.swift in Sources */,
 				75E67EBB28159A26005D92A9 /* homework6.swift in Sources */,
 				75E67EBD2816B096005D92A9 /* homework7.swift in Sources */,
+				E4761FB128A2B9D300D44B6B /* homework22.swift in Sources */,
 				75E67EC5281944E7005D92A9 /* homework8.swift in Sources */,
 				757A4517281DC79000601DF0 /* homework9.swift in Sources */,
 				757A451B282BBD9600601DF0 /* homework10.swift in Sources */,
